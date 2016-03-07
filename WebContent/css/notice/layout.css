@@ -1,0 +1,26 @@
+/* common */
+body {font-size:12px;font-family:NanumGothic,"나눔고딕";color:#666;}
+a {color:#666;text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+/* layout */
+#wrap {width:100%;background:url(../images/bg_header.gif) repeat-x 0 0;}
+	#header {z-index:30;position:relative;width:980px;height:100px;margin:0 auto;}
+	#container {z-index:20;position:relative;width:100%;background:url(../images/bg_container.gif) repeat-x 0 0;}
+		    #content {width:980px;margin:0 auto;}
+			#container:after {content:"";display:block;clear:both;}
+			/* 메인페이지 */
+			.cont_top {width:980px;margin:0 auto;height:111px;}
+			.cont_banner {width:980px;margin:0 auto;clear:both;}
+			.cont_middle {width:980px;margin:0 auto;}
+			.cont_middle:after {content:"";display:block;clear:both;}
+			.cont_bottom {width:980px;margin:0 auto;height:280px;}
+			.cont_bottom:after {content:"";display:block;clear:both;}
+			/* 공지사항 */
+			
+	#sub_container {z-index:20;position:relative;width:980px;margin:0 auto;margin-top:40px;}
+	#sub_container:after {content:"";display:block;clear:both;}
+			.snb {float:left;width:167px;}
+			.content {float:right;width:760px;}
+	#footer {width:100%;height:150px;margin-top:30px;background:url(../images/bg_footer.jpg) repeat-x 0 0;clear:both;}
+		.footArea {width:980px;height:150px;margin:0 auto;}

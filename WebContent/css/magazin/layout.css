@@ -1,0 +1,28 @@
+/* common */
+body{font-size:11px;font-family:Dotum,"돋움",Helvetica,ApppleGothic,sans-serif}
+a{text-decoration:none;color:#666}
+a:hover{text-decoration:underline;color:#5372b4}
+img{border:0}
+
+/* layout */
+#wrap{position:relative;width:960px;height:2730px;margin:0 auto}
+	#header{position:relative;width:960px;height:175px}
+		.gnb{width:960px}
+	#container{width:960px;padding-top:15px}
+	#container:after{content:"";display:block;clear:both}
+		/* 메인페이지 */
+		.content_top{width:960px}
+		.today_talk{width:960px;padding-bottom:55px}
+		.today_talk:after{content:"";display:block;clear:both}
+		.content_center{width:960px}
+		.content_center:after{content:"";display:block;clear:both}
+		.cosmo_event{margin-top:45px;width:960px}
+		.cosmo_event:after{content:"";display:block;clear:both}
+		.content_bottom{margin-top:50px;width:960px;height:343px}
+		.content_bottom:after{content:"";display:block;clear:both}
+		/* 서브페이지 */
+		.content01{float:left;width:715px}
+		.content02{float:right;width:215px}
+	.site_map{width:960px}
+	.quick_menu{width:90px;height:460px}
+	#footer{width:960px;height:100px;padding-top:30px}

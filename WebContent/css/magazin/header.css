@@ -1,0 +1,55 @@
+/* header.css */
+/* 로고 */
+.logo{padding:15px 0}
+/* 탑메뉴 */
+.top_menu{position:absolute;right:0;top:65px}
+.top_menu dd{display:inline;margin-right:10px}
+/* 주메뉴 */
+.gnb ul{width:760px;height:30px;position:relative;padding-left:30px;background-color:#000}
+.gnb ul li{float:left;padding:10px 20px 0 19px;background:url(../images/gnb_bullet.gif) no-repeat right top}
+.gnb ul li ul{position:absolute;display:none;left:0;top:31px;padding:0;width:960px;background-color:#ededed}
+.gnb ul li ul li{line-height:30px;background:none}
+/* 주메뉴 - 서브메뉴 */
+.gnb ul li ul li{overflow:hidden;text-indent:-9999px;padding:0 20px 0 19px}
+.gnb ul li ul li a{display:block;height:9px;margin-top:10px}
+.sub_menu_01 .s_m_1_1{padding-left:50px}
+.sub_menu_01 .s_m_1_1 a{width:30px; background:url(../images/gnb_ov_01.gif) no-repeat left top}
+.sub_menu_01 .s_m_1_2 a{width:23px; background:url(../images/gnb_ov_02.gif) no-repeat left top}
+.sub_menu_01 .s_m_1_3 a{width:58px; background:url(../images/gnb_ov_03.gif) no-repeat left top}
+.sub_menu_02 .s_m_2_1{padding-left:125px}
+.sub_menu_02 .s_m_2_1 a{width:36px; background:url(../images/gnb_ov_04.gif) no-repeat left top}
+.sub_menu_02 .s_m_2_2 a{width:41px; background:url(../images/gnb_ov_05.gif) no-repeat left top}
+.sub_menu_03 .s_m_3_1{padding-left:220px}
+.sub_menu_03 .s_m_3_1 a{width:26px; background:url(../images/gnb_ov_06.gif) no-repeat left top}
+.sub_menu_03 .s_m_3_2 a{width:58px; background:url(../images/gnb_ov_07.gif) no-repeat left top}
+.sub_menu_03 .s_m_3_3 a{width:58px; background:url(../images/gnb_ov_35.gif) no-repeat left top}
+.sub_menu_04 .s_m_4_1{padding-left:220px}
+.sub_menu_04 .s_m_4_1 a{width:70px; background:url(../images/gnb_ov_08.gif) no-repeat left top}
+.sub_menu_04 .s_m_4_2 a{width:72px; background:url(../images/gnb_ov_09.gif) no-repeat left top}
+.sub_menu_04 .s_m_4_3 a{width:56px; background:url(../images/gnb_ov_09_10.gif) no-repeat left top}
+.sub_menu_05 .s_m_5_1{padding-left:305px}
+.sub_menu_05 .s_m_5_1 a{width:57px; background:url(../images/gnb_ov_10.gif) no-repeat left top}
+.sub_menu_05 .s_m_5_2 a{width:46px; background:url(../images/gnb_ov_11.gif) no-repeat left top}
+.sub_menu_05 .s_m_5_3 a{width:59px; background:url(../images/gnb_ov_12.gif) no-repeat left top}
+.sub_menu_06 .s_m_6_1{padding-left:225px}
+.sub_menu_06 .s_m_6_1 a{width:75px; background:url(../images/gnb_ov_13.gif) no-repeat left top}
+.sub_menu_06 .s_m_6_2 a{width:92px; background:url(../images/gnb_ov_14.gif) no-repeat left top}
+.sub_menu_06 .s_m_6_3 a{width:96px; background:url(../images/gnb_ov_15.gif) no-repeat left top}
+.sub_menu_06 .s_m_6_4 a{width:95px; background:url(../images/gnb_ov_16.gif) no-repeat left top}
+.sub_menu_07 .s_m_7_1{padding-left:325px}
+.sub_menu_07 .s_m_7_1 a{width:109px; background:url(../images/gnb_ov_24.gif) no-repeat left top}
+.sub_menu_07 .s_m_7_2 a{width:68px; background:url(../images/gnb_ov_26.gif) no-repeat left top}
+.sub_menu_07 .s_m_7_3 a{width:59px; background:url(../images/gnb_ov_27.gif) no-repeat left top}
+.sub_menu_08 .s_m_8_1{padding-left:125px}
+.sub_menu_08 .s_m_8_1 a{width:38px; background:url(../images/gnb_ov_17.gif) no-repeat left top}
+.sub_menu_08 .s_m_8_2 a{width:72px; background:url(../images/gnb_ov_18.gif) no-repeat left top}
+.sub_menu_08 .s_m_8_3 a{width:106px; background:url(../images/gnb_ov_19.gif) no-repeat left top}
+.sub_menu_08 .s_m_8_4 a{width:71px; background:url(../images/gnb_ov_20.gif) no-repeat left top}
+.sub_menu_08 .s_m_8_5 a{width:108px; background:url(../images/gnb_ov_21.gif) no-repeat left top}
+.sub_menu_08 .s_m_8_6 a{width:106px; background:url(../images/gnb_ov_22.gif) no-repeat left top}
+.sub_menu_08 .s_m_8_7 a{width:59px; background:url(../images/gnb_ov_23.gif) no-repeat left top}
+.gnb ul li ul li a:hover{background-position:left -9px}
+/*검색바*/
+.search{position:absolute;width:164px;padding:3px;height:24px;right:0;top:114px;background-color:#878787}
+.search .txt_bar{float:left;margin-left:5px;border:0;width:125px;height:24px;background-color:#878787}
+.search .go_btn{float:right}

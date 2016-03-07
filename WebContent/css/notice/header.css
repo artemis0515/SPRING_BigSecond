@@ -1,0 +1,43 @@
+/* header */
+
+#header h1 a {float:left;display:block;margin-top:10px;width:133px;height:55px;}
+
+/* 탑메뉴 */
+.topline {height:27px;font-size:11px;}
+.enjo {float:left;padding:7px 0 0 14px;background:url(../images/star.gif) no-repeat 0 7px;}
+.topMenu {float:right;position:relative;height:22px;margin-right:0px;}
+.topMenu dd {float:left;margin-top:7px;padding-right:17px;margin-right:5px;background:url(../images/topMenu_bar.gif) no-repeat 100% 50%;}
+.topMenu .last {margin-right:84px;background:none;padding-right:0;}
+.top_right {position:absolute;right:0px;top:4px;}
+.top_right .first {padding-right:3px;}
+.top_right li {float:left;}
+
+/* 주메뉴 */
+.gnb {float:left;width:525px;margin-top:40px;margin-left:70px;line-height:22px;}
+
+.gnb li.nav {z-index:200;float:left;padding-right:50px;}
+.gnb li.last {padding-right:0px;}
+
+.blu  {float:left;padding:20px 20px 0 10px;width:130px;height:140px;}
+.blu_sub {height:50px;}
+
+.blu_b1 {background:url(../images/gnb_bar.gif) no-repeat 100% 20px;}
+.blu_b2 {background:url(../images/gnb_bar02.gif) no-repeat 100% 20px;}
+.blu_b3 {background:url(../images/gnb_bar03.gif) no-repeat 100% 20px;}
+.blu_b4 {background:url(../images/gnb_bar04.gif) no-repeat 100% 20px;}
+
+
+.gnb .blu a {font-weight:bold;color:#003f79;font-size:14px;}
+.gnb .blu ul li {background:url(../images/bu_gnb.gif) no-repeat 0 50%;text-indent:7px;font-weight:normal;}
+.gnb .blu ul li a {color:#666;font-size:13px;}
+.gnb .blu ul li a:hover {color:#f00;}
+.gnb_sub{z-index:100;display:none;position:absolute;left:0;top:98px;width:100%;height:189px;text-indent:5px;}
+.gs1 {padding-left:10px;background:url(../images/bg_gnb_sub.jpg) repeat-x 0 0px;}
+.gs2 {padding-left:180px;background:url(../images/bg_gnb_sub02.jpg) repeat-x 0 0px;}
+.gs3 {padding-left:250px;background:url(../images/bg_gnb_sub03.jpg) repeat-x 0 0px;}
+.gs4 {padding-left:140px;background:url(../images/bg_gnb_sub04.jpg) repeat-x 0 0px;}
+.gs5 {padding-left:120px;background:url(../images/bg_gnb_sub03.jpg) repeat-x 0 0px;}
+
+
+.gnb_right {float:left;margin-left:73px;margin-top:11px;}
+.gnb_right li {float:left;}

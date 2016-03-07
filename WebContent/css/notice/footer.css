@@ -1,0 +1,11 @@
+/* footer */
+.footArea {position:relative;}
+.footArea ul {padding:10px 0;}
+.footArea ul li {float:left;padding-right:34px;}
+.footArea .foot_last {padding-right:0;}
+.footArea .foot_logo {float:left;padding-top:30px;}
+.footArea address {float:left;width:650px;padding-top:25px;padding-left:20px;}
+.cj_site form {float:right;padding-top:30px;width:175px;height:15px;}
+.cj_site optgroup, select {font-size:12px;font-family:NanumGothic,"나눔고딕";color:#666;font-style:normal;}
+.footArea .foot_sel {width:149px;height:16px;}
+.foot_pro {position:absolute;right:0px;top:85px;}

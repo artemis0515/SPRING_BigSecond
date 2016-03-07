@@ -1,0 +1,150 @@
+@import url(import.css);
+
+/* join.css */
+
+/* contianer */
+/* content1 */
+.cont_title3{margin-bottom:40px}
+.cont_title4{overflow:hidden;text-indent:-9999px;width:475px;height:50px;background:url(../jimages/m_cont04_011.gif) no-repeat 0 0}
+.user_tb tr th{width:110px}
+.user_tb tr th label,.user_tb tr th span{display:block;overflow:hidden;text-indent:-9999px;height:16px;background:url(../jimages/m_cont04_011.gif) no-repeat 0 0}
+.user_tb tr td{width:400px}
+.user_tb tr td input{vertical-align:middle}
+.user_tb tr td p.sub_txt{padding-left:12px;color:#a9a9a9;background:url(../jimages/btn_paging_right3.gif) no-repeat 5px 5px}
+.user_tb tr td p.sub_txt span{display:block}
+.user_tb tr td p.sub_txt strong{font-weight:bold;color:#f89021}
+/* 이름 */
+tr.user_name th label{margin-bottom:60px;background-position:0 -60px}
+tr.user_name td .input_name{width:120px}
+tr.user_name td .name_txt{width:365px;height:30px;margin:10px 0 22px}
+/* 생년월일 */
+tr.user_birth th span{margin-bottom:12px;width:60px;background-position:0 -180px}
+tr.user_birth td select{width:40px;height:20px}
+tr.user_birth td .year{width:55px}
+tr.user_birth td .birth_txt{text-indent:0;background:none;color:#666}
+tr.user_birth td .day_txt{padding-right:20px}
+tr.user_birth td .birth_label{vertical-align:middle;display:inline-block;text-indent:-9999px;overflow:hidden;height:18px;width:22px;background:url(../jimages/m_cont28.gif) no-repeat 0 0}
+tr.user_birth td .yang{background-position:0 0}
+tr.user_birth td .emm{background-position:-48px 0}
+tr.user_birth td:after{content:"";display:block;clear:both}
+tr.user_birth td{padding-bottom:12px}
+/* 결혼여부 */
+tr.user_marry th span{margin-bottom:25px;width:60px;background-position:0 -150px}
+tr.user_marry td label{vertical-align:middle;display:inline-block;text-indent:-9999px;overflow:hidden;height:18px;width:22px;background:url(../jimages/m_cont04_011.gif) no-repeat 0 0}
+tr.user_marry td .marry_mi{background-position:-130px -145px}
+tr.user_marry td .marry_gi{background-position:-195px -145px}
+tr.user_marry td:after{content:"";display:block;clear:both}
+tr.user_marry td{padding-bottom:25px}
+/* 이메일 아이디 */
+tr.user_id th label{margin-bottom:45px;width:95px;background-position:0 -210px}
+tr.user_id td input{vertical-align:top}
+tr.user_id td .mail_addr1{width:95px;height:18px}
+tr.user_id td .mail_addr2{width:70px;height:18px}
+tr.user_id td .mail_addr3{height:20px}
+tr.user_id td .btn_emailover{vertical-align:top}
+tr.user_id .sub_txt{margin:12px 0 25px}
+/* 이메일 수신용 */
+tr.user_reciev th label{margin-bottom:45px;width:95px;background-position:0 -270px}
+tr.user_reciev td input{vertical-align:top}
+tr.user_reciev .mail_addr1{width:100px;height:18px}
+tr.user_reciev .mail_addr2{width:75px;height:18px}
+tr.user_reciev .sub_txt .email_id{vertical-align:top}
+tr.user_reciev .sub_txt{margin:10px 0 22px}
+/* 비밀번호 */
+tr.user_pass th label{padding-bottom:10px;width:60px;background-position:0 -300px}
+tr.user_pass td span{color:#9a9a9a}
+tr.user_pass td .pass{width:120px;height:18px}
+tr.user_pass td{padding-bottom:10px}
+/* 비밀번호 확인 */
+tr.user_re_pass th label{padding-bottom:10px;width:85px;background-position:0 -330px}
+tr.user_re_pass td .re_pass{width:120px;height:18px}
+tr.user_re_pass td{padding-bottom:10px}
+/* 닉네임 */
+tr.user_nick th label{padding-bottom:10px;width:50px;background-position:0 -390px}
+tr.user_nick td .nick{width:120px;height:18px;vertical-align:top}
+tr.user_nick td{padding-bottom:10px}
+/* 휴대전화 번호 */
+tr.user_cel_num th label{padding-bottom:10px;width:95px;background-position:0 -420px}
+tr.user_cel_num .input_cel1{width:65px;vertical-align:middle}
+tr.user_cel_num .input_cel2{width:65px;height:18px;vertical-align:middle}
+tr.user_cel_num .input_cel3{width:65px;height:18px;vertical-align:middle}
+tr.user_cel_num .s_k_l{width:100px;vertical-align:middle}
+tr.user_cel_num td{padding-bottom:10px}
+/* 연락처 */
+tr.user_tel th label{padding-bottom:10px;width:45px;background-position:0 -450px}
+tr.user_tel .tel1{width:85px;vertical-align:middle}
+tr.user_tel .tel2{width:70px;height:18px;vertical-align:middle}
+tr.user_tel .tel3{width:100px;height:18px;vertical-align:middle}
+tr.user_tel td{padding-bottom:10px}
+/* 주소 */
+tr.user_addr th label{margin-bottom:115px;width:40px;background-position:0 -480px}
+tr.user_addr .input_addr{width:60px;height:18px;vertical-align:top;margin-bottom:10px}
+tr.user_addr .remin_addr1{width:265px;height:18px;margin-bottom:10px}
+tr.user_addr .remin_addr2{width:265px;height:18px;margin-bottom:10px}
+tr.user_addr .addr_txt{color:#9a9a9a;margin-bottom:10px}
+tr.user_addr .sub_txt{margin-bottom:22px}
+/* 라인 */
+tr.dotted_line{width:475px;height:5px;background:url(../jimages/m_cont04_011.gif) no-repeat 0 -365px}
+/* 메일링 서비스 */
+tr.user_mailing th span{margin-bottom:90px;width:85px;background-position:0 -630px}
+tr.user_mailing td .mailing_line1 label{vertical-align:middle;display:inline-block;text-indent:-9999px;overflow:hidden;height:18px;width:22px;background:url(../jimages/m_cont04_011.gif) no-repeat 0 0}
+tr.user_mailing td .mailing_line1 .mailing_y{width:30px;background-position:-128px -627px}
+tr.user_mailing td .mailing_line1 .mailing_n{width:65px;background-position:-195px -627px}
+tr.user_mailing td .mailing_line{width:365px}
+tr.user_mailing td .mailing_line1:after{content:"";display:block;clear:both}
+tr.user_mailing td .mailing_line1{padding-bottom:10px}
+tr.user_mailing td .mailing_line2:after{content:"";display:block;clear:both}
+tr.user_mailing td .mailing_line3:after{content:"";display:block;clear:both}
+tr.user_mailing td .mailing_line3{padding-bottom:10px}
+tr.user_mailing td .mailing_txt{text-indent:3px;background:none;color:#9a9a9a}
+tr.user_mailing td .sub_txt{margin-bottom:25px}
+/* sms 서비스 */
+tr.user_sms th span{margin-bottom:15px;width:80px;background-position:0 -750px}
+tr.user_sms td label{vertical-align:middle;display:inline-block;text-indent:-9999px;overflow:hidden;height:18px;width:22px;background:url(../jimages/m_cont04_011.gif) no-repeat 0 0}
+tr.user_sms td .sms_y{width:30px;background-position:-128px -627px}
+tr.user_sms td .sms_n{width:65px;background-position:-195px -627px}
+tr.user_sms td:after{content:"";display:block;clear:both}
+tr.user_sms td{padding-bottom:20px}
+/* 매거진 정기구독 회원번호 */
+tr.user_megazin th label{margin-bottom:15px;width:95px;height:30px;background-position:0 -780px}
+tr.user_megazin td .megazin1{width:120px;height:20px;vertical-align:top}
+tr.user_megazin td .megazin2{width:120px;height:18px;vertical-align:top}
+tr.user_megazin td .megazin3{vertical-align:top}
+tr.user_megazin td{padding-bottom:30px}
+/* 버튼 */
+.content_btn{margin:20px 110px}
+
+/* content2 */
+/* 유투브 배너 */
+.Utube{margin-bottom:30px}
+/* 베스트 질문 */
+.best_question h3{margin-bottom:10px}
+.best_question p{float:left;height:65px}
+.best_question p.question{width:105px;padding:10px 0 0 10px}
+.best_question{width:215px;height:80px;margin-bottom:40px}
+/* 베스트 핫 5 */
+.best_5 h3{margin-bottom:15px}
+.best_5 .first{padding-left:0;margin-bottom:15px;background:url(../nimages/hot_love.png) no-repeat 0 0;height:35px;background-color:#f2f2f2;padding-top:12px}
+.first a{margin-left:60px}
+.best_5 .li_2{background:url(../nimages/bullet_black_list02.gif) no-repeat 0 0}
+.best_5 .li_3{background:url(../nimages/bullet_black_list03.gif) no-repeat 0 0}
+.best_5 .li_4{background:url(../nimages/bullet_black_list04.gif) no-repeat 0 0}
+.best_5 .li_5{margin-bottom:0;background:url(../nimages/bullet_black_list05.gif) no-repeat 0 0}
+.best_5 li{padding-left:22px;margin-bottom:10px}
+.best_5{width:215px;height:160px;margin-bottom:45px}
+/* 새로운 기사 */
+.new_article h3{margin-bottom:15px}
+.new_article .first{padding-left:0;margin-bottom:15px;background:url(../nimages/hot_weekly.png) no-repeat 0 0;height:35px;background-color:#f2f2f2;padding-top:12px}
+.new_article .li_2{background:url(../nimages/bullet_list02.gif) no-repeat 0 0}
+.new_article .li_3{background:url(../nimages/bullet_list03.gif) no-repeat 0 0}
+.new_article .li_4{background:url(../nimages/bullet_list04.gif) no-repeat 0 0}
+.new_article .li_5{background:url(../nimages/bullet_list05.gif) no-repeat 0 0}
+.new_article .li_6{background:url(../nimages/bullet_list06.gif) no-repeat 0 0}
+.new_article .li_7{background:url(../nimages/bullet_list07.gif) no-repeat 0 0}
+.new_article .li_8{background:url(../nimages/bullet_list08.gif) no-repeat 0 0}
+.new_article .li_9{background:url(../nimages/bullet_list09.gif) no-repeat 0 0}
+.new_article .li_10{margin-bottom:0;background:url(../nimages/bullet_list10.gif) no-repeat 0 0}
+.new_article li{padding-left:22px;margin-bottom:10px}
+.new_article{width:215px;margin-bottom:40px}
+/* 코스모폴리탄배너 */
+.cosmopoliatan{margin-bottom:50px}

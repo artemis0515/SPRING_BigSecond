@@ -1,0 +1,89 @@
+@import url(reset.css);
+
+/*main.css*/
+
+/*common*/
+a{text-decoration:none;color:#000}
+a:hover{text-decoration:underline}
+strong{font-weight:bold;font-size:11px}
+
+/*layout*/
+#wrap{width:970px; margin: 0 auto;
+	  font-family:"lucida grande",Tahoma,Verdana,Helvetica,sans-serif,"나눔고딕",NanumGothic,"돋움",Dotum}
+	#header{height:96px;padding-top:23px;position:relative;border-top:2px solid #000}
+	#container{}
+	#footer{clear:both;padding-top:15px;height:46px;
+			border-top:1px solid #a3a3a3}
+
+/*header*/
+h1{padding:20px 0 41px 0;float:left}
+
+.topMenu{float:right;position:absolute;left:797px;top:10px}
+.topMenu li{float:left;padding-left:10px;overflow:hidden;text-indent:-9999px}
+.topMenu li a{display:block;height:18px}
+.topMenu .kor a{width:29px;background:url(../images/topmenu1.gif) no-repeat 0 -18px}
+.topMenu .eng a{width:31px;background:url(../images/topmenu2.gif) no-repeat 0 -18px}
+.topMenu .chi a{width:31px;background:url(../images/topmenu3.gif) no-repeat 0 -18px}
+.topMenu .jap a{width:37px;background:url(../images/topmenu4.gif) no-repeat 0 -18px}
+.topMenu .kor .selected{background-position:0 0}
+.topMenu li a:hover{background-position: 0 0}
+
+.gnb{float:left;padding-top:35px}
+.gnb li{padding-right:29px;float:left;overflow:hidden;text-indent:-9999px}
+.gnb li a{display:block;height:18px}
+.gnb .g1 a{width:42px;background:url(../images/gnbmenu1.gif) no-repeat 0 0}
+.gnb .g1{padding-left:50px}
+.gnb .g2 a{width:39px;background:url(../images/gnbmenu2.gif) no-repeat 0 0}
+.gnb .g3 a{width:50px;background:url(../images/gnbmenu3.gif) no-repeat 0 0}
+.gnb .g4 a{width:47px;background:url(../images/gnbmenu4.gif) no-repeat 0 0}
+.gnb .g5 a{width:58px;background:url(../images/gnbmenu5.gif) no-repeat 0 0}
+.gnb .g6 a{width:75px;background:url(../images/gnbmenu6.gif) no-repeat 0 0}
+.gnb .g7 a{width:44px;background:url(../images/gnbmenu7.gif) no-repeat 0 0}
+.gnb .g8 a{width:16px;background:url(../images/gnbmenu8.gif) no-repeat 0 0}
+.gnb .g8{padding-right:0}
+.gnb li a:hover{background-position:0 -18px}
+
+#header form{padding-top:33px;float:right}
+#header form input{width:120px;vertical-align:middle}
+
+/*page*/
+* {font-size:11px;font-family:Dotum,"돋움",sans-serif;color:#666}
+fieldset,img {border:0}
+.page{width:725px;margin:0 auto}
+.page .form{width:663px;padding-left:48px}
+.blind {position:absolute;left:0;top:0;width:0;height:0;font-size:0;line-height:0;text-indent:-9999px;overflow:hidden;visibility:hidden}
+.page form{clear:both;position:relative}
+.table{width:750px;border:1px solid #d5d5d5}
+table{border-top:2px solid #d3d3d3;width:100%;border-collapse:collapse;border:5px solid #f6f6f6}
+h2{float:left}
+.path{float:left;padding:20px 0 20px 0}
+.pinfo{float:left;clear:both;padding:0 0 20px 20px}
+label, td{border-bottom:1px solid #e7e7e7;height:16px;border-collapse:collapse}
+th{border-bottom:1px solid #e7e7e7;padding-right:10px}
+.page input{vertical-align:middle;margin:10px 5px}
+.i130{width:130px}
+.i190{width:190px}
+.i34{width:34px}
+.zip{width:28px}
+.btn{padding:20px 0 0 280px}
+.btn1{padding-top:20px}
+
+/*footer*/
+
+/*nav*/
+.foot_area{clear:both;position:relative;width:970px;height:37px}
+.yg_logo,.cright{float:left}
+.yg_logo{padding-right:10px}
+.nav{float:right}
+.nav li{float:left}
+.nav1{position:absolute;left:580px;top:0;}
+.nav2{position:absolute;left:650px;top:-18px;}
+
+/*family*/
+#footer form{position:relative;top:0;left:835px}
+#footer form option{color:#fff}
+#selected{font-size:10px;font-family:arial;color:#fff;background:#727272;width:140px;
+		  text-align:left}
+
+
+
